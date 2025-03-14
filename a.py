@@ -23,14 +23,10 @@ for n in range(N - 1):
     pre_water = current_water - water_diff_list[n]
     #水量は常に正
     if pre_water <= 0:
-        prewarter = 0
+        pre_water = 0
     current_water = pre_water + V_list[n + 1]
 
 print(current_water)
-
-print("大変よくできました。")
-    
-print("大変よくできました。")
 
 
     
