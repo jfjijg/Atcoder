@@ -28,7 +28,9 @@ for n in range(N - 1):
 
 print(current_water)
 
+print("大変よくできました。")
     
+print("大変よくできました。")
 
 
     
